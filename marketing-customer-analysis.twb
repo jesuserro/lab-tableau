@@ -1,0 +1,634 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.25.0208.0338                               -->
+<workbook original-version='18.1' source-build='2024.3.4 (20243.25.0208.0338)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='we_fn_use_c_marketing_customer_value_analysis' inline='true' name='federated.0dhway80teb1vq1g8twaa1t0hdlp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='we_fn_use_c_marketing_customer_value_analysis' name='textscan.14y9o2l1mvgcwg1eidh870qvny89'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/jesus/Documents/Ironhack/DataAnalyticsFeb2025/Unit 6 - Tableau and Project 2/lab-tableau/we_fn_use_c_marketing_customer_value_analysis.csv' dataRefreshTime='' directory='C:/Users/jesus/Documents/Ironhack/DataAnalyticsFeb2025/Unit 6 - Tableau and Project 2/lab-tableau' filename='C:/Users/jesus/AppData/Local/Temp/TableauTemp/0hzqmif0i1s8961dp7koc0fzfj1v/we_fn_use_c_marketing_customer_value_analysis.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.14y9o2l1mvgcwg1eidh870qvny89' name='we_fn_use_c_marketing_customer_value_analysis.csv' table='[we_fn_use_c_marketing_cus#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:AB9135:no:A1:AB9135:0' header='no' locale='es_ES' separator=' '>
+            <column datatype='string' name='Customer,State,Customer' ordinal='0' />
+            <column datatype='string' name='Lifetime' ordinal='1' />
+            <column datatype='string' name='Value,Response,Coverage,Education,Effective' ordinal='2' />
+            <column datatype='string' name='To' ordinal='3' />
+            <column datatype='string' name='Date,EmploymentStatus,Gender,Income,Location' ordinal='4' />
+            <column datatype='string' name='Code,Marital' ordinal='5' />
+            <column datatype='string' name='Status,Monthly' ordinal='6' />
+            <column datatype='string' name='Premium' ordinal='7' />
+            <column datatype='string' name='Auto,Months' ordinal='8' />
+            <column datatype='string' name='Since' ordinal='9' />
+            <column datatype='string' name='Last' ordinal='10' />
+            <column datatype='string' name='Claim,Months' ordinal='11' />
+            <column datatype='string' name='Since 1' ordinal='12' />
+            <column datatype='string' name='Policy' ordinal='13' />
+            <column datatype='string' name='Inception,Number' ordinal='14' />
+            <column datatype='string' name='of' ordinal='15' />
+            <column datatype='string' name='Open' ordinal='16' />
+            <column datatype='string' name='Complaints,Number' ordinal='17' />
+            <column datatype='string' name='of 1' ordinal='18' />
+            <column datatype='string' name='Policies,Policy' ordinal='19' />
+            <column datatype='string' name='Type,Policy,Renew' ordinal='20' />
+            <column datatype='string' name='Offer' ordinal='21' />
+            <column datatype='string' name='Type,Sales' ordinal='22' />
+            <column datatype='string' name='Channel,Total' ordinal='23' />
+            <column datatype='string' name='Claim' ordinal='24' />
+            <column datatype='string' name='Amount,Vehicle' ordinal='25' />
+            <column datatype='string' name='Class,Vehicle' ordinal='26' />
+            <column datatype='string' name='Size' ordinal='27' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AB9135:no:A1:AB9135:0&quot;</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F13]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F14]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F15</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F15]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F15</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F17]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F18</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F18]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F18</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F19</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F19]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F19</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F20</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F20]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F20</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F21</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F21]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F21</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F22</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F22]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F22</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F23</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F23]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F23</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F24]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F24</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F25</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F25]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F25</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F26</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F26]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F26</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F27</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F27]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F27</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F28</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F28]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.csv]</parent-name>
+            <remote-alias>F28</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='we_fn_use_c_marketing_customer_value_analysis.csv' datatype='table' name='[__tableau_internal_object_id__].[we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='we_fn_use_c_marketing_customer_value_analysis.csv' id='we_fn_use_c_marketing_customer_value_analysis.csv_C7C847B23CAA461EB9D83A600C478913'>
+            <properties context=''>
+              <relation connection='textscan.14y9o2l1mvgcwg1eidh870qvny89' name='we_fn_use_c_marketing_customer_value_analysis.csv' table='[we_fn_use_c_marketing_cus#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:AB9135:no:A1:AB9135:0' header='no' locale='es_ES' separator=' '>
+                  <column datatype='string' name='Customer,State,Customer' ordinal='0' />
+                  <column datatype='string' name='Lifetime' ordinal='1' />
+                  <column datatype='string' name='Value,Response,Coverage,Education,Effective' ordinal='2' />
+                  <column datatype='string' name='To' ordinal='3' />
+                  <column datatype='string' name='Date,EmploymentStatus,Gender,Income,Location' ordinal='4' />
+                  <column datatype='string' name='Code,Marital' ordinal='5' />
+                  <column datatype='string' name='Status,Monthly' ordinal='6' />
+                  <column datatype='string' name='Premium' ordinal='7' />
+                  <column datatype='string' name='Auto,Months' ordinal='8' />
+                  <column datatype='string' name='Since' ordinal='9' />
+                  <column datatype='string' name='Last' ordinal='10' />
+                  <column datatype='string' name='Claim,Months' ordinal='11' />
+                  <column datatype='string' name='Since 1' ordinal='12' />
+                  <column datatype='string' name='Policy' ordinal='13' />
+                  <column datatype='string' name='Inception,Number' ordinal='14' />
+                  <column datatype='string' name='of' ordinal='15' />
+                  <column datatype='string' name='Open' ordinal='16' />
+                  <column datatype='string' name='Complaints,Number' ordinal='17' />
+                  <column datatype='string' name='of 1' ordinal='18' />
+                  <column datatype='string' name='Policies,Policy' ordinal='19' />
+                  <column datatype='string' name='Type,Policy,Renew' ordinal='20' />
+                  <column datatype='string' name='Offer' ordinal='21' />
+                  <column datatype='string' name='Type,Sales' ordinal='22' />
+                  <column datatype='string' name='Channel,Total' ordinal='23' />
+                  <column datatype='string' name='Claim' ordinal='24' />
+                  <column datatype='string' name='Amount,Vehicle' ordinal='25' />
+                  <column datatype='string' name='Class,Vehicle' ordinal='26' />
+                  <column datatype='string' name='Size' ordinal='27' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Hoja 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A75B24DD-ADAA-400F-B2B7-E2DA2C821C75}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Hoja 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DCF5BECF-A6FC-4154-9D1D-494D5912F2C5}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Hoja 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
